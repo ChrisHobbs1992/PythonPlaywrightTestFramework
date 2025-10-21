@@ -1,0 +1,165 @@
+{
+  "created": 1761063648.8489523,
+  "duration": 0.2724184989929199,
+  "exitcode": 0,
+  "root": "c:\\Users\\chris\\ch-example-framework",
+  "environment": {},
+  "summary": {
+    "total": 0,
+    "collected": 15
+  },
+  "collectors": [
+    {
+      "nodeid": "",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests",
+          "type": "Package"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/examples/test_example.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/examples/test_example.py::test_example[chromium]",
+          "type": "Function",
+          "lineno": 11
+        },
+        {
+          "nodeid": "tests/examples/test_example.py::test_slogan_present[chromium]",
+          "type": "Function",
+          "lineno": 18
+        },
+        {
+          "nodeid": "tests/examples/test_example.py::test_hospital_and_clinic_link_present[chromium]",
+          "type": "Function",
+          "lineno": 22
+        },
+        {
+          "nodeid": "tests/examples/test_example.py::test_our_digital_service_heading_present[chromium]",
+          "type": "Function",
+          "lineno": 28
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/examples",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/examples/test_example.py",
+          "type": "Module"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/home_page_test.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/home_page_test.py::test_slogan_present[chromium]",
+          "type": "Function",
+          "lineno": 7
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/our_digital_services_page_test.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_our_digital_service_heading_present[chromium]",
+          "type": "Function",
+          "lineno": 7
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_on_default_page_all_services_listed[chromium]",
+          "type": "Function",
+          "lineno": 12
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_hospitals_and_clinics_selected[chromium]",
+          "type": "Function",
+          "lineno": 33
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_gp_and_community_care_selected[chromium]",
+          "type": "Function",
+          "lineno": 55
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_medicines_and_pharmacy_selected[chromium]",
+          "type": "Function",
+          "lineno": 78
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_urgent_and_emergency_care_selected[chromium]",
+          "type": "Function",
+          "lineno": 100
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_diagnostics_department_selected[chromium]",
+          "type": "Function",
+          "lineno": 122
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py::test_digital_services_visible_when_the_nhs_wales_app_selected[chromium]",
+          "type": "Function",
+          "lineno": 145
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/product_directory_page_test.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/product_directory_page_test.py::test_hospital_and_clinic_link_present[chromium]",
+          "type": "Function",
+          "lineno": 7
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/search_bar_test.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/search_bar_test.py::test_search_results[chromium]",
+          "type": "Function",
+          "lineno": 7
+        }
+      ]
+    },
+    {
+      "nodeid": "tests",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/examples",
+          "type": "Dir"
+        },
+        {
+          "nodeid": "tests/home_page_test.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/our_digital_services_page_test.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/product_directory_page_test.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/search_bar_test.py",
+          "type": "Module"
+        }
+      ]
+    }
+  ],
+  "tests": []
+}
